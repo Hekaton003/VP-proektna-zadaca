@@ -1,0 +1,10 @@
+C:\Users\random pc\Desktop\VP-proektna-zadaca\MilionaireQuiz\MilionaireQuiz\bin\Debug\MilionaireQuiz.exe.config
+C:\Users\random pc\Desktop\VP-proektna-zadaca\MilionaireQuiz\MilionaireQuiz\bin\Debug\MilionaireQuiz.exe
+C:\Users\random pc\Desktop\VP-proektna-zadaca\MilionaireQuiz\MilionaireQuiz\bin\Debug\MilionaireQuiz.pdb
+C:\Users\random pc\Desktop\VP-proektna-zadaca\MilionaireQuiz\MilionaireQuiz\obj\Debug\MilionaireQuiz.csproj.AssemblyReference.cache
+C:\Users\random pc\Desktop\VP-proektna-zadaca\MilionaireQuiz\MilionaireQuiz\obj\Debug\MilionaireQuiz.Form1.resources
+C:\Users\random pc\Desktop\VP-proektna-zadaca\MilionaireQuiz\MilionaireQuiz\obj\Debug\MilionaireQuiz.Properties.Resources.resources
+C:\Users\random pc\Desktop\VP-proektna-zadaca\MilionaireQuiz\MilionaireQuiz\obj\Debug\MilionaireQuiz.csproj.GenerateResource.cache
+C:\Users\random pc\Desktop\VP-proektna-zadaca\MilionaireQuiz\MilionaireQuiz\obj\Debug\MilionaireQuiz.csproj.CoreCompileInputs.cache
+C:\Users\random pc\Desktop\VP-proektna-zadaca\MilionaireQuiz\MilionaireQuiz\obj\Debug\MilionaireQuiz.exe
+C:\Users\random pc\Desktop\VP-proektna-zadaca\MilionaireQuiz\MilionaireQuiz\obj\Debug\MilionaireQuiz.pdb

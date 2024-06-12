@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86066843-7453-4FFE-A777-6E60036CEB92}|MilionaireQuiz\\MilionaireQuiz.csproj|c:\\users\\random pc\\desktop\\vp-proektna-zadaca\\milionairequiz\\milionairequiz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{86066843-7453-4FFE-A777-6E60036CEB92}|MilionaireQuiz\\MilionaireQuiz.csproj|c:\\users\\random pc\\desktop\\vp-proektna-zadaca\\milionairequiz\\milionairequiz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86066843-7453-4FFE-A777-6E60036CEB92}|MilionaireQuiz\\MilionaireQuiz.csproj|solutionrelative:milionairequiz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86066843-7453-4FFE-A777-6E60036CEB92}|MilionaireQuiz\\MilionaireQuiz.csproj|C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\milionairequiz\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86066843-7453-4FFE-A777-6E60036CEB92}|MilionaireQuiz\\MilionaireQuiz.csproj|solutionrelative:milionairequiz\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86066843-7453-4FFE-A777-6E60036CEB92}|MilionaireQuiz\\MilionaireQuiz.csproj|C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\milionairequiz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86066843-7453-4FFE-A777-6E60036CEB92}|MilionaireQuiz\\MilionaireQuiz.csproj|solutionrelative:milionairequiz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86066843-7453-4FFE-A777-6E60036CEB92}|MilionaireQuiz\\MilionaireQuiz.csproj|C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\milionairequiz\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86066843-7453-4FFE-A777-6E60036CEB92}|MilionaireQuiz\\MilionaireQuiz.csproj|solutionrelative:milionairequiz\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86066843-7453-4FFE-A777-6E60036CEB92}|MilionaireQuiz\\MilionaireQuiz.csproj|C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\milionairequiz\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86066843-7453-4FFE-A777-6E60036CEB92}|MilionaireQuiz\\MilionaireQuiz.csproj|solutionrelative:milionairequiz\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +42,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\MilionaireQuiz\\Game.cs",
+              "RelativeDocumentMoniker": "MilionaireQuiz\\Game.cs",
+              "ToolTip": "C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\MilionaireQuiz\\Game.cs",
+              "RelativeToolTip": "MilionaireQuiz\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:07:34.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\MilionaireQuiz\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "MilionaireQuiz\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\MilionaireQuiz\\Form1.Designer.cs",
+              "RelativeToolTip": "MilionaireQuiz\\Form1.Designer.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAqwLYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:36:46.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\MilionaireQuiz\\Question.cs",
+              "RelativeDocumentMoniker": "MilionaireQuiz\\Question.cs",
+              "ToolTip": "C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\MilionaireQuiz\\Question.cs",
+              "RelativeToolTip": "MilionaireQuiz\\Question.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:09:06.434Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\MilionaireQuiz\\Form1.cs",
+              "RelativeDocumentMoniker": "MilionaireQuiz\\Form1.cs",
+              "ToolTip": "C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\MilionaireQuiz\\Form1.cs",
+              "RelativeToolTip": "MilionaireQuiz\\Form1.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAYwF8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:06:38.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\random pc\\Desktop\\VP-proektna-zadaca\\MilionaireQuiz\\MilionaireQuiz\\Form1.cs",
               "RelativeDocumentMoniker": "MilionaireQuiz\\Form1.cs",
