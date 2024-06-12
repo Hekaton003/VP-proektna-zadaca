@@ -20,6 +20,7 @@ namespace MilionaireQuiz
             game.Category = "Sport";
             InitializeComponent();
             groupBox1.Text = "Current Category " + game.Category;
+            moneyLabel.Text = "Current winings:" + game.Money + "$";
         }
 
         private void highScoresBtn_Click(object sender, EventArgs e)
@@ -46,14 +47,7 @@ namespace MilionaireQuiz
             radioButton2.Visible = !radioButton2.Visible;
             radioButton3.Visible = !radioButton3.Visible;
             radioButton4.Visible = !radioButton4.Visible;
-            if(radioButton1.Visible)
-            {
-                groupBox1.Text = "Choose category";
-            }
-            else
-            {
-                groupBox1.Text = "Current Category "+game.Category;
-            }
+            
         }
 
         private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
@@ -65,9 +59,14 @@ namespace MilionaireQuiz
 
         private void loadQuestion(int index)
         {
-
+            groupBox1.Text = game.CurrentQuestions[index].TheQuestion;
+            radioButton1.Text = game.CurrentQuestions[index].Answers[0];
+            radioButton2.Text = game.CurrentQuestions[index].Answers[1];
+            radioButton3.Text = game.CurrentQuestions[index].Answers[2];
+            radioButton4.Text = game.CurrentQuestions[index].Answers[3];
+            
         }
-
+        //ova e start button samo ne e taka krsten eventot
         private void button1_Click(object sender, EventArgs e)
         {
             hideHighScoresAndChangeCategoryButtons();
@@ -95,6 +94,11 @@ namespace MilionaireQuiz
             }
             game.HasStarted = true;
             nextQuestionBtn.Visible = true;
+            if (!radioButton1.Visible)
+            {
+                displayCategoryRadioButtons();
+            }
+            moneyLabel.Visible = true;
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
@@ -153,7 +157,79 @@ namespace MilionaireQuiz
 
         private void nextQuestionBtn_Click(object sender, EventArgs e)
         {
-
+            bool gameOver = false;
+            foreach(RadioButton r in groupBox1.Controls)
+            {
+                if (r.Checked)
+                {
+                    if (r.Text == game.CurrentQuestions[game.CurrentQuestionIndex].CorrectAnswer)
+                    {
+                        moneyLabel.Text = "Current Winings:";
+                        if (game.CurrentQuestionIndex == 0)
+                        {
+                            moneyLabel.Text += "500$";
+                        }
+                        else if (game.CurrentQuestionIndex == 1)
+                        {
+                            moneyLabel.Text += "1000$";
+                        }
+                        else if(game.CurrentQuestionIndex==2)
+                        {
+                            moneyLabel.Text += "3000$";
+                        }
+                        else if (game.CurrentQuestionIndex == 3)
+                        {
+                            moneyLabel.Text += "5000$";
+                        }
+                        else if (game.CurrentQuestionIndex == 4)
+                        {
+                            moneyLabel.Text += "8000$";
+                        }
+                        else if (game.CurrentQuestionIndex == 5)
+                        {
+                            moneyLabel.Text += "14 000$";
+                        }
+                        else if (game.CurrentQuestionIndex == 6)
+                        {
+                            moneyLabel.Text += "30 000$";
+                        }
+                        else if (game.CurrentQuestionIndex == 7)
+                        {
+                            moneyLabel.Text += "58 000$";
+                        }
+                        else if (game.CurrentQuestionIndex == 8)
+                        {
+                            moneyLabel.Text += "86 000$";
+                        }
+                        else if (game.CurrentQuestionIndex == 9)
+                        {
+                            moneyLabel.Text += "125 000$";
+                        }
+                        else if (game.CurrentQuestionIndex == 10)
+                        {
+                            moneyLabel.Text += "500 000$";
+                        }
+                        else if (game.CurrentQuestionIndex == 11)
+                        {
+                            moneyLabel.Text += "1 000 000$";
+                        }
+                    }
+                    else
+                    {
+                        gameOver = true;
+                    }
+                    break;
+                }
+            }
+            if (!gameOver)
+            {
+                game.CurrentQuestionIndex++;
+                loadQuestion(game.CurrentQuestionIndex);
+            }
+            else
+            {
+                nextQuestionBtn.Enabled = false;
+            }
         }
     }
 }

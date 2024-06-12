@@ -4,10 +4,10 @@ namespace MilionaireQuiz
 {
     public class Question
     {
-        private string TheQuestion {  get; set; }
-        private string CorrectAnswer { get; set; }
-        private List<string> Answers { get; set; }
-        private bool Answered { get; set; }
+        public string TheQuestion {  get; set; }
+        public string CorrectAnswer { get; set; }
+        public List<string> Answers { get; set; }
+        public bool Answered { get; set; }
 
         public Question(string theQuestion, string correctAnswer, List<string> answers)
         {

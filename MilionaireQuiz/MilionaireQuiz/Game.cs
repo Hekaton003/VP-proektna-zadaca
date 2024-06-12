@@ -10,7 +10,7 @@ namespace MilionaireQuiz
     {
         public string PlayerName { set; get; }
         public string Category { set; get; }
-        public int Points { set; get; } = 0;
+        public int Money { set; get; } = 0;
         public int CurrentQuestionIndex { set; get; } = 0;
 
         public bool HasStarted { set; get; }=false;

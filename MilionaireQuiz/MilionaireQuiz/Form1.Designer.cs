@@ -40,6 +40,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.startGameBtn = new System.Windows.Forms.Button();
             this.nextQuestionBtn = new System.Windows.Forms.Button();
+            this.moneyLabel = new System.Windows.Forms.Label();
+            this.trueFalseLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -97,7 +99,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 40);
+            this.radioButton1.Location = new System.Drawing.Point(53, 40);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(86, 29);
             this.radioButton1.TabIndex = 5;
@@ -110,7 +112,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(98, 40);
+            this.radioButton2.Location = new System.Drawing.Point(273, 40);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(145, 29);
             this.radioButton2.TabIndex = 6;
@@ -123,7 +125,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(249, 40);
+            this.radioButton3.Location = new System.Drawing.Point(487, 40);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(92, 29);
             this.radioButton3.TabIndex = 7;
@@ -136,7 +138,7 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(347, 40);
+            this.radioButton4.Location = new System.Drawing.Point(613, 40);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(152, 29);
             this.radioButton4.TabIndex = 8;
@@ -153,9 +155,9 @@
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton4);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(187, 73);
+            this.groupBox1.Location = new System.Drawing.Point(23, 73);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(550, 112);
+            this.groupBox1.Size = new System.Drawing.Size(777, 112);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Current Category";
@@ -181,11 +183,33 @@
             this.nextQuestionBtn.Visible = false;
             this.nextQuestionBtn.Click += new System.EventHandler(this.nextQuestionBtn_Click);
             // 
+            // moneyLabel
+            // 
+            this.moneyLabel.AutoSize = true;
+            this.moneyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moneyLabel.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.moneyLabel.Location = new System.Drawing.Point(60, 363);
+            this.moneyLabel.Name = "moneyLabel";
+            this.moneyLabel.Size = new System.Drawing.Size(76, 25);
+            this.moneyLabel.TabIndex = 12;
+            this.moneyLabel.Text = "label1";
+            this.moneyLabel.Visible = false;
+            // 
+            // trueFalseLabel
+            // 
+            this.trueFalseLabel.AutoSize = true;
+            this.trueFalseLabel.Location = new System.Drawing.Point(171, 375);
+            this.trueFalseLabel.Name = "trueFalseLabel";
+            this.trueFalseLabel.Size = new System.Drawing.Size(0, 13);
+            this.trueFalseLabel.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.trueFalseLabel);
+            this.Controls.Add(this.moneyLabel);
             this.Controls.Add(this.nextQuestionBtn);
             this.Controls.Add(this.startGameBtn);
             this.Controls.Add(this.choseCatBtn);
@@ -219,6 +243,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button startGameBtn;
         private System.Windows.Forms.Button nextQuestionBtn;
+        private System.Windows.Forms.Label moneyLabel;
+        private System.Windows.Forms.Label trueFalseLabel;
     }
 }
 
